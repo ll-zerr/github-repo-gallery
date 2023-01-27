@@ -20,7 +20,7 @@ const displayData = function (data) {
 
   profileInfo.innerHTML =
   `<figure>
-    <img alt="user avatar" src=${'https://avatars.githubusercontent.com/u/103609331?v=4'}/>
+    <img alt="user avatar" src=${data.avatar_url}/>
    </figure>
    <div>
     <p><strong>Name:</strong> ${data.name}</p>
